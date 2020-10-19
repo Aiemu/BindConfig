@@ -1,0 +1,14 @@
+$TTL    604800
+@       IN      SOA    c.secrank.cn. root.c.secrank.cn. (
+2        ; Serial
+604800        ; Refresh
+86400        ; Retry
+2419200        ; Expire
+86400) ; ;Minimum 
+; Negative Cache TTL
+; name servers
+@      IN      NS      c.secrank.cn.
+
+; PTR Records
+32   IN      PTR     www.c.secrank.cn.    ; 10.0.1.32
+32   IN      PTR     aiemu.c.secrank.cn.  ; 10.0.1.32
